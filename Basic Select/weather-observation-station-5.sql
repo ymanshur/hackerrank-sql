@@ -1,0 +1,21 @@
+SELECT
+    CITY,
+    LENGTH (CITY) l
+FROM
+    STATION
+ORDER BY
+    l ASC,
+    CITY ASC
+LIMIT
+    1;
+
+SELECT
+    CITY,
+    LENGTH (CITY) l
+FROM
+    STATION
+ORDER BY
+    l DESC,
+    CITY ASC
+LIMIT
+    1;
